@@ -4,7 +4,7 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.0.3"
+		package_version: "2.2"
 
 		# Display name can be any string with any length.
 		# display_name: "Realistic FOV Mirror Quper"
@@ -21,6 +21,6 @@ SiiNunit
 
 		# Description file inside the root directory of the mod.
 		description_file: "description.txt"
-
+		mp_mod_optional: true
 	}
 }

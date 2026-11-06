@@ -1,0 +1,22 @@
+SiiNunit
+{
+	mirror_data : .mirror.data {
+		# Mirror sizes in meters (width, height).
+		mirror_size[]: (0.2, 0.4)		// close mirror
+		mirror_size[]: (0.2, 0.2)		// close small mirror
+		mirror_size[]: (0.2, 0.4)		// far mirror
+		mirror_size[]: (0.2, 0.2)		// far small mirror
+		mirror_size[]: (0.3, 0.15)	// side mirror
+		mirror_size[]: (0.25, 0.125)	// front mirror
+		mirror_size[]: (0.2, 0.2)		// hood mirror
+
+		# FOV extension in degrees (left, right, bottom, top).
+		mirror_fov_extension[]: (4.0, 4.0, 8.0, 8.0)		// close mirror
+		mirror_fov_extension[]: (20.0, 20.0, 20.0, 20.0)	// close small mirror
+		mirror_fov_extension[]: (5.5, 5.5, 11.0, 11.0)		// far mirror
+		mirror_fov_extension[]: (25.0, 25.0, 25.0, 25.0)	// far small mirror
+		mirror_fov_extension[]: (16.0, 16.0, 16.0, 16.0)	// side mirror
+		mirror_fov_extension[]: (10.5, 10.5, 0.0, 10.5)		// front mirror
+		mirror_fov_extension[]: (15.0, 15.0, 15.0, 15.0)	// hood mirror
+	}
+}
